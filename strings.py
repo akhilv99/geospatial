@@ -7,8 +7,6 @@ Type "copyright", "credits" or "license()" for more information.
 Akhil Varanasi
 >>> print(age)
 21
->>> print {favorite_cars[0}}
-SyntaxError: invalid syntax
 >>> print (favorite_cars[0])
 McLaren
 >>> 
