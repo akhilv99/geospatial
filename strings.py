@@ -21,4 +21,6 @@ McLaren
 #uses str to find the position at which 'kh' first appears
 #since the first instance of kh appears at position 1, 1 is printed 
 1
->>> 
+>>> str.replace(name,"Akhil", "Akh")
+#Replaces first name 'Akhil' with 'Akh'
+'Akh Varanasi'
