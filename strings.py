@@ -24,3 +24,12 @@ McLaren
 >>> str.replace(name,"Akhil", "Akh")
 #Replaces first name 'Akhil' with 'Akh'
 'Akh Varanasi'
+>>> name = str.replace(name,"Akhil", "Akh")
+#sets name variale equal to 'Akh Varanasi'
+>>> name
+'Akh Varanasi'
+#prints aforementioned line
+>>> car_string = "Bugatti,Pagani,Ferrari"
+>>> car_list = str.split(car_string,',')
+>>> car_list
+['Bugatti', 'Pagani', 'Ferrari']
