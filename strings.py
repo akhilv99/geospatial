@@ -10,4 +10,6 @@ Akhil Varanasi
 >>> print (favorite_cars[0])
 McLaren
 >>> 
+>>> str.find("Akhil Varanasi","kh")
+1
 >>> 
