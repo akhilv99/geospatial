@@ -17,6 +17,15 @@ Akhil Varanasi
 >>> print (favorite_cars[0])
 #prints the first entry from the previously defined array
 McLaren
+>>> name[0:2]
+'Ak'
+#picks two leftmost characters, prints out positions 0 to 2. 
+#This is not inclusive position 2, only includes characters 0 and 1. 
+>>> name[-8:-2]
+'Varana'
+#picks two rightmost characters, prints out positions -8 to -2
+#This is not inclusive of position -2, only prints up to -1
+
 >>> str.find("Akhil Varanasi","kh")
 #uses str to find the position at which 'kh' first appears
 #since the first instance of kh appears at position 1, 1 is printed 
@@ -30,6 +39,9 @@ McLaren
 'Akh Varanasi'
 #prints aforementioned line
 >>> car_string = "Bugatti,Pagani,Ferrari"
+#creates template for string
 >>> car_list = str.split(car_string,',')
+#splits individual strings and forms array elements out of each string 
 >>> car_list
+#lists all three car variables 
 ['Bugatti', 'Pagani', 'Ferrari']
